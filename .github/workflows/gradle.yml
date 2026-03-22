@@ -26,4 +26,7 @@ jobs:
         # Запускаем автотесты
         # Для проектов на базе Selenide необходимо добавить параметр для запуска браузера
         # в headless режиме -Dselenide.headless=true, параметр --info должен остаться
-        run: ./gradlew test --info -Dselenide.headless=true -Dselenide.browser=chrome -Dchromeoptions.args="--no-sandbox, --disable-dev-shm-usage,--headless,--window-size=1366,768"
+        run: ./gradlew test --info \
+        -Dselenide.headless=true \
+        -Dselenide.browser=chrome \
+        -Dchromeoptions.args="--no-sandbox,--disable-dev-shm-usage,--headless,--window-size=1366,768,--remote-allow-origins=*"
