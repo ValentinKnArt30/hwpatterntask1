@@ -1,4 +1,4 @@
-package ru.netology.autounit;
+package ru.netology.autounit.data;
 
 import com.github.javafaker.Faker;
 import lombok.Value;

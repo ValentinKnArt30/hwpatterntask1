@@ -1,10 +1,11 @@
-package ru.netology.autounit;
+package ru.netology.autounit.test;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+import ru.netology.autounit.data.DataGenerator;
 
 import java.time.Duration;
 
